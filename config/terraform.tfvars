@@ -36,7 +36,7 @@ subnet_config = {
           vpc_name = "vpc01"
      
      cidr_block = "192.168.64.0/18"
-     availability_zone = "us-east-1a"
+     availability_zone = "us-east-1b"
      tags = {
 
         "Name" = "pv-us-east-1b"
@@ -62,7 +62,7 @@ subnet_config = {
           vpc_name = "vpc01"
      
      cidr_block = "192.168.192.0/18"
-     availability_zone = "us-east-1a"
+     availability_zone = "us-east-1b"
      tags = {
 
         "Name" = "pv-private-us-east-1b"
@@ -250,7 +250,7 @@ aws_eks_node_group_config = {
 
     eks_cluster_name = "sai-cluster"
 
-    node_iam_role= "eks-node-general1"
+    node_iam_role= "eks-node-general3"
     subnet1 = "pv-private-us-east-1a"
     subnet2 = "pv-private-us-east-1b"
 
@@ -267,7 +267,7 @@ aws_eks_node_group_config = {
 
     eks_cluster_name = "sai-cluster"
 
-    node_iam_role= "eks-node-general1"
+    node_iam_role= "eks-node-general4"
     subnet1 = "pv-private-us-east-1a"
     subnet2 = "pv-private-us-east-1b"
 
